@@ -1,0 +1,24 @@
+
++-------------------------------------+
+|            Student                  |
++-------------------------------------+
+| - id: int                           |
+| - name: string                      |
+| - fatherName: string                |
+| - motherName: string                |
+| - address: string                   |
+| - contact: string                   |
+| - cgpa: float                       |
+| - department: string                |
+| - admissionYear: int                |
+| - pass: string                      |
++-------------------------------------+
+| + addStudent(): void                |
+| + showAllStudents(): void           |
+| + searchStudent(id: int): void      |
+| + modifyStudent(id: int): void      |
+| + deleteStudent(id: int): void      |
+| + generateResult(id: int): void     |
+| + login(): bool                     |
+| + changePassword(): void            |
++-------------------------------------+
